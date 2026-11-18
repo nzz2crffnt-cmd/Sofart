@@ -24,11 +24,13 @@
 const REGLAGES = {
   nomArtiste: "Sofart",
   slogan: "Des dessins originaux, faits main, prêts à vivre chez vous.",
-  email: "ton.email@exemple.com", // ← mets ton adresse email ici
-  instagram: "", // ex : "https://instagram.com/ton_compte" (laisse vide pour cacher)
+  email: "sofana.moussaoui93@gmail.com",
+  instagram: "https://instagram.com/sofart195",
   monnaie: "€",
   aPropos:
-    "Je dessine depuis toujours. Chaque dessin est une pièce unique, réalisée à la main. " +
+    "Moi, c'est Sofana. J'ai 31 ans, je vis à Paris et je suis maman d'une petite fille. " +
+    "Après des années à griffonner dans les marges, j'ai décidé de me lancer pour de bon dans l'art et la créativité. " +
+    "Chaque dessin est une pièce unique, faite à la main avec le cœur, entre deux histoires du soir. " +
     "Les œuvres sont envoyées soigneusement emballées, avec un petit mot.",
 };
 
