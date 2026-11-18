@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+<rect width="600" height="800" fill="#eef1ec"/>
+<circle cx="295" cy="483" r="109" fill="#6a8f6b" opacity=".75"/>
+<path d="M352,113 C279,574 355,95 165,553" fill="none" stroke="#23324a" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+<path d="M481,364 C394,244 77,613 310,415" fill="none" stroke="#23324a" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+<path d="M187,449 C82,510 500,222 368,443" fill="none" stroke="#23324a" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+<path d="M275,370 C483,348 293,258 411,390" fill="none" stroke="#23324a" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+<path d="M245,216 C293,325 285,708 252,125" fill="none" stroke="#23324a" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+<path d="M62,321 C128,279 525,390 334,454" fill="none" stroke="#23324a" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+<path d="M220,642 C290,526 300,146 394,678" fill="none" stroke="#23324a" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+<path d="M492,593 C140,309 271,324 78,112" fill="none" stroke="#23324a" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+<path d="M214,701 C396,153 333,162 136,473" fill="none" stroke="#23324a" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+<text x="560" y="770" font-family="Georgia, serif" font-style="italic" font-size="22" fill="#23324a" text-anchor="end" opacity=".6">exemple</text>
+</svg>

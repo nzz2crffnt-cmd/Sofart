@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sofart — Dessins originaux à vendre</title>
+  <meta name="description" content="Boutique de dessins originaux faits main.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="entete">
+    <a href="#" class="logo" id="logo">Sofart</a>
+    <nav>
+      <a href="#galerie">Galerie</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact">Contact</a>
+      <button class="btn-panier" id="btnPanier" aria-label="Voir le panier">
+        Panier <span class="compteur" id="compteur">0</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="sur-titre">Boutique d'art</p>
+      <h1 id="heroTitre">Sofart</h1>
+      <p class="slogan" id="slogan"></p>
+      <a href="#galerie" class="btn btn-plein">Voir les dessins</a>
+    </section>
+
+    <section id="galerie" class="section">
+      <div class="section-tete">
+        <h2>Galerie</h2>
+        <div class="filtres" id="filtres" role="tablist"></div>
+      </div>
+      <div class="grille" id="grille"></div>
+    </section>
+
+    <section id="apropos" class="section apropos">
+      <h2>À propos</h2>
+      <p id="texteApropos"></p>
+      <ul class="atouts">
+        <li><strong>Pièces uniques</strong><span>Chaque dessin est un original.</span></li>
+        <li><strong>Envoi soigné</strong><span>Emballé avec soin, protégé.</span></li>
+        <li><strong>Commandes perso</strong><span>Un dessin sur mesure ? Écris-moi.</span></li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Contact</h2>
+      <p>Une question, une commande personnalisée ?</p>
+      <div class="contact-liens">
+        <a class="btn btn-plein" id="lienEmail" href="#">M'écrire un email</a>
+        <a class="btn btn-contour" id="lienInsta" href="#" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pied">
+    <p>© <span id="annee"></span> <span id="nomPied">Sofart</span> — Tous droits réservés</p>
+  </footer>
+
+  <!-- Fenêtre détail d'un dessin -->
+  <dialog class="modale" id="modale">
+    <button class="fermer" data-fermer aria-label="Fermer">×</button>
+    <div class="modale-contenu">
+      <img id="mImage" alt="">
+      <div class="modale-infos">
+        <p class="categorie" id="mCategorie"></p>
+        <h3 id="mTitre"></h3>
+        <p class="prix" id="mPrix"></p>
+        <p id="mDescription"></p>
+        <dl class="details">
+          <dt>Technique</dt><dd id="mTechnique"></dd>
+          <dt>Format</dt><dd id="mFormat"></dd>
+        </dl>
+        <div class="modale-actions" id="mActions"></div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Panier -->
+  <aside class="panier" id="panier" aria-hidden="true">
+    <div class="panier-tete">
+      <h3>Ton panier</h3>
+      <button class="fermer" id="fermerPanier" aria-label="Fermer le panier">×</button>
+    </div>
+    <ul class="panier-liste" id="panierListe"></ul>
+    <div class="panier-pied">
+      <p class="total">Total : <strong id="panierTotal">0 €</strong></p>
+      <button class="btn btn-plein" id="btnCommander">Commander</button>
+      <p class="petit">Tu recevras un email pour finaliser le paiement et la livraison.</p>
+    </div>
+  </aside>
+  <div class="voile" id="voile"></div>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="dessins.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
